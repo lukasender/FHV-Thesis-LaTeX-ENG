@@ -1,0 +1,23 @@
+\chapter*{Statutory Declaration}
+\addcontentsline{toc}{chapter}{Statutory Declaration}
+
+I hereby declare that I have authored this thesis independently, that I
+have not used other than the declared sources/resources, and that I have
+explicitly marked all material which has been quoted either literally or by
+content from the used sources.
+
+\vfill
+
+%% definition of the block tat contains date and signature
+\newcommand{\mysignatureblock}[3]{%
+  %% Sorry, this is a "bit" of a hack. Maybe someone knows a more elegant method?
+  \begin{tabular}{llp{2em}l}
+  #1 & \hspace{4cm}        & & \hspace{5cm} \\\cline{2-2}\cline{4-4}
+     &                     & & \\[-3mm]
+     & {\footnotesize #2}  & & {\footnotesize #3}
+  \end{tabular}
+}
+
+\mysignatureblock{Dornbirn,}{Date}{Fore- and Surname}
+
+\vfill\vfill
